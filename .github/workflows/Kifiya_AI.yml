@@ -21,6 +21,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Run tests # Runs the project's tests
+    - name: Run Kifiya_AI # Runs the project's tests
       run: |
         python -m unittest discover tests
